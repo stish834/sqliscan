@@ -1,5 +1,6 @@
 #!/bin/bash
 #simple aja cuman lihat jumlah line pada source code victim
+#simple, it just looks at the number of lines in the victim's source code
 red='\033[0;41m'
 hijau='\033[1;42m'
 biru='\033[1;34m'
