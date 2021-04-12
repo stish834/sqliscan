@@ -38,8 +38,8 @@ echo -n "[+] Output name: "
                         fi
                 done < $mass_site
 rm ms1 ms2
-jumlah_sqli=$(cat $output_mass | wc -l)
-        echo "$output_mass, Total $jumlah_sqli line"
+jumlah_sqli=$(cat mass_$output_mass | wc -l)
+        echo "Saved on mass_$output_mass, Total $jumlah_sqli line"
 }
 function sqli_single() {
 clear
