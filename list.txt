@@ -1,0 +1,2 @@
+http://example.com/exp.php?id=1
+http://example.ru/exp.php?anything&id=1
